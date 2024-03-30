@@ -47,7 +47,8 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: $headerHoverBG;
+  background-color: #594fc4;
+  color: white !important; //Added from me kamal
 }
 
 .header .logo {

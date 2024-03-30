@@ -23,14 +23,36 @@ body {
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  background-color: #EDF9FE;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+/* width */
+::-webkit-scrollbar {
+  width: .30rem;
+}
+
+/* Track  */
+::-webkit-scrollbar-track {
+  background: #d1d5db;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #594fc4;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3d3877;
 }
 /* Media Query */
 @media (max-width: 1380px) {
   html,
   body {
-    font-size: rem;
+    font-size: 1rem;
     line-height: normal;
   }
 }

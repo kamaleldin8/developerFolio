@@ -23,8 +23,11 @@ function Header() {
   const viewTalks = talkSection.display;
 
   return (
-    <Headroom>
-      <header className={isDark ? "dark-menu header" : "header"}>
+    <Headroom style={{background: "#EDF9FE"}}>
+      <header
+        className={isDark ? "dark-menu header" : "header sticky"}
+        style={{background: "#EDF9FE"}}
+      >
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
