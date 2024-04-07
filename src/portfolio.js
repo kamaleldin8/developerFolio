@@ -52,10 +52,8 @@ const skillsSection = {
   title: "What I do",
   subTitle: "FRONT END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")
+    emoji("⚡ Develop interactive Front end / User Interfaces for your web")
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     // )
@@ -139,8 +137,8 @@ const educationInfo = {
       duration: "September 2016 - July 2020",
       // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     }
     // {
@@ -184,33 +182,39 @@ const workExperiences = {
       role: "Front End Developer",
       company: "nWeave",
       companylogo: require("./assets/images/nWeave.jfif"),
-      date: "June 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      date: "June 2023 – Present"
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
       role: "Front End Developer",
       company: "Blank Page",
       companylogo: require("./assets/images/blankpage_agency_logo.jfif"),
       date: "Sep 2022 – Nov 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Implemented projects from scratch",
+        "Utilized native Html, Css, JavaScript, Saas"
+      ]
     },
     {
       role: "IT Specialist",
       company: "Egyptian Armed Forces",
       companylogo: require("./assets/images/القوات-البحرية.png"),
       date: "June 2021 – June 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Network configurations admin",
+        "Using photoshop and indesign softwares to help my unit in its goals"
+      ]
     },
     {
       role: "IT Intern",
       company: "Port Of Alexandria Co",
       companylogo: require("./assets/images/ميناء-الاسكندرية.jpg"),
       date: "Sep 2019 – Oct 2019",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Intern in general network, basics"
     }
   ]
 };
