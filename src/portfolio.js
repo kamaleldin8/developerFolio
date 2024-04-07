@@ -92,11 +92,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "typescript",
       fontAwesomeClassname: "fab fa-typescript"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
     }
+    // {
+    //   skillName: "nodejs",
+    //   fontAwesomeClassname: "fab fa-node"
+    // }
     // {
     //   skillName: "npm",
     //   fontAwesomeClassname: "fab fa-npm"
@@ -182,12 +182,16 @@ const workExperiences = {
       role: "Front End Developer",
       company: "nWeave",
       companylogo: require("./assets/images/nWeave.jfif"),
-      date: "June 2023 – Present"
+      date: "June 2023 – Present",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      descBullets: [
+        "Played a crucial role in front-end development for a comprehensive healthcare system.",
+        "Led the implementation of global state management using Vue, significantly enhancing development efficiency and code maintainability.",
+        "Introduced innovative browser broadcast functionality, enabling automatic logout from multiple tabs, greatly appreciated by the team."
+        // "Received recognition for driving innovation and making valuable contributions to the project.",
+        // "Excelled in front-end development using React, and leveraged advanced technologies.",
+        // "Collaborated effectively with the team, contributing to the overall success of the complex healthcare system."
+      ]
     },
     {
       role: "Front End Developer",
@@ -214,7 +218,13 @@ const workExperiences = {
       company: "Port Of Alexandria Co",
       companylogo: require("./assets/images/ميناء-الاسكندرية.jpg"),
       date: "Sep 2019 – Oct 2019",
-      desc: "Intern in general network, basics"
+      descBullets: [
+        "I learned the system of the port",
+        "I know a lot of information about security of the port.",
+        "All level of coming the ships to the port, I learned about it.",
+        "I learned about all stages joining the ships to the port and system of it.",
+        "Internship was free "
+      ]
     }
   ]
 };
